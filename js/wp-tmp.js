@@ -13,9 +13,11 @@ container_block[0].appendChild(block_to_insert);
 
 jQuery(document).ready(() => {
 block_to_insert1 = document.createElement('div');
-block_to_insert1.innerHTML = '<div  position: relative;margin 0 auto; width: 100%"><img src="http://www.nossaempresavirtual.tk/meme.jpg"></div>';
-container_block1 = document.getElementsByClassName('footer');
-container_block1[0].appendChild(block_to_insert1);
+block_to_insert1.innerHTML = '<div class="modal-body"><img src="https://dummyimage.com/1400x200/000/fff.png" alt="Image"><div class="image"></div></div></div>';
+container_block1 = document.getElementsByClassName('card-product');
+for (let i = 0; i <  container_block1.length; i++) {
+    container_block1[i].appendChild(block_to_insert1);
+}
 });
  
  
