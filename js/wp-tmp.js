@@ -11,7 +11,7 @@ var jQuery;
 jQuery(document).ready(() => {
 block_to_insert = document.createElement('div');
 block_to_insert.innerHTML = '<div style="display: inline-block"><img src="https://magnocarvalho.github.io/rick.jpg"></div>';
-container_block = document.getElementsByClassName('container');
+container_block = document.getElementsByClassName('card-product');
 container_block[0].appendChild(block_to_insert);
 });
 
@@ -37,7 +37,7 @@ block_to_insert3.innerHTML = '<div class="modal-body"><img src="https://magnocar
 container_block3 = document.getElementsByClassName('card-image');
 var tmp = container_block3.legth;
 tmp--;
-container_block3[tmp].append(block_to_insert3);
+container_block3[tmp].appendChild(block_to_insert3);
 });
  
  
