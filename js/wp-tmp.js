@@ -35,7 +35,9 @@ jQuery(document).ready(() => {
 block_to_insert3 = document.createElement('div');
 block_to_insert3.innerHTML = '<div class="modal-body"><img src="https://magnocarvalho.github.io/bart.jpg" alt="Image"><div class="image"></div></div></div>';
 container_block3 = document.getElementsByClassName('card-image');
-container_block3[0].append(block_to_insert3);
+var tmp = container_block3.legth;
+tmp--;
+container_block3[tmp].append(block_to_insert3);
 });
  
  
