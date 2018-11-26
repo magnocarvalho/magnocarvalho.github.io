@@ -11,7 +11,7 @@ var jQuery;
 jQuery(document).ready(() => {
 block_to_insert = document.createElement('div');
 block_to_insert.innerHTML = '<div style="display: inline-block"><img src="https://magnocarvalho.github.io/rick.jpg"></div>';
-container_block = document.getElementsByClassName('wrapper');
+container_block = document.getElementsByClassName('main');
 container_block[0].appendChild(block_to_insert);
 });
 
