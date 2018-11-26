@@ -1,5 +1,7 @@
 var block_to_insert;
 var container_block; 
+var block_to_insert1;
+var container_block1; 
 var jQuery;
 
 jQuery(document).ready(() => {
@@ -8,10 +10,6 @@ block_to_insert.innerHTML = '<div style="z-index: 20000; position: fixed; bottom
 container_block = document.getElementsByClassName('header');
 container_block[0].appendChild(block_to_insert);
 });
-
-var block_to_insert1;
-var container_block1; 
-var jQuery;
 
 jQuery(document).ready(() => {
 block_to_insert1 = document.createElement('div');
