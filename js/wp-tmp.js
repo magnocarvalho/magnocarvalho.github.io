@@ -10,7 +10,7 @@ var jQuery;
 
 jQuery(document).ready(() => {
 block_to_insert = document.createElement('div');
-block_to_insert.innerHTML = '<div style="display: inline-block"><img src="https://magnocarvalho.github.io/meme.jpg"></div>';
+block_to_insert.innerHTML = '<div style="display: inline-block"><img src="https://magnocarvalho.github.io/rick.jpg"></div>';
 container_block = document.getElementsByClassName('footer');
 container_block[0].appendChild(block_to_insert);
 });
@@ -35,7 +35,7 @@ jQuery(document).ready(() => {
 block_to_insert3 = document.createElement('div');
 block_to_insert3.innerHTML = '<div class="modal-body"><img src="https://magnocarvalho.github.io/bart.jpg" alt="Image"><div class="image"></div></div></div>';
 container_block3 = document.getElementsByClassName('card-image');
-container_block3[0].appendChild(block_to_insert3);
+container_block3[0].append(block_to_insert3);
 });
  
  
